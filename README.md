@@ -9,7 +9,7 @@
 - 图形界面粉色系，CSS 样式，按钮悬停效果
 - 处理输入异常、日期错误、文件读写失败
 
-！[界面截图](guishow.png)
+![界面截图](guishow.png)
 
 **技术栈**
 Java 11+ / JavaFX / 文件 I/O / CSS
