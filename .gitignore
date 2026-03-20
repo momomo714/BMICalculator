@@ -1,0 +1,17 @@
+# 编译后的字节码文件
+*.class
+
+# IDE 配置文件（如果你用IntelliJ）
+.idea/
+*.iml
+out/
+target/
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# 系统文件
+.DS_Store
+Thumbs.db

@@ -1,0 +1,81 @@
+.root {
+    -fx-font-family: "Microsoft YaHei", "Arial", sans-serif;
+    -fx-background-color: #ffe6f2;  /* 浅粉红背景 */
+}
+
+/* 标签样式 */
+.label {
+    -fx-font-size: 14px;
+    -fx-text-fill: #b3456b;        /* 深粉红文字 */
+    -fx-font-weight: bold;
+}
+
+/* 输入框样式 */
+.text-field {
+    -fx-background-color: #fff0f5;  /* 极浅粉红背景 */
+    -fx-background-radius: 8;       /* 大圆角 */
+    -fx-border-color: #ffb6c1;      /* 粉红边框 */
+    -fx-border-radius: 8;
+    -fx-border-width: 1.5;
+    -fx-padding: 5;
+    -fx-font-size: 13px;
+}
+
+/* 日期选择器（继承输入框样式） */
+.date-picker {
+    -fx-background-color: #fff0f5;
+    -fx-background-radius: 8;
+    -fx-border-color: #ffb6c1;
+    -fx-border-radius: 8;
+    -fx-border-width: 1.5;
+}
+
+/* 按钮通用样式 */
+.button {
+    -fx-background-radius: 15;      /* 非常圆的按钮 */
+    -fx-font-size: 14px;
+    -fx-padding: 8 15;
+    -fx-font-weight: bold;
+    -fx-cursor: hand;               /* 手型光标 */
+}
+
+/* 计算按钮 */
+#calcButton {
+    -fx-background-color: #ff99cc;   /* 粉红色 */
+    -fx-text-fill: white;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.2), 5, 0, 0, 2);
+}
+
+#calcButton:hover {
+    -fx-background-color: #ff80bf;   /* 悬停变深 */
+}
+
+/* 清空按钮 */
+#clearButton {
+    -fx-background-color: #ffccdd;   /* 浅粉色 */
+    -fx-text-fill: #b3456b;
+}
+
+#clearButton:hover {
+    -fx-background-color: #ffb3c6;
+}
+
+/* 历史按钮 */
+#historyButton {
+    -fx-background-color: #ffb3d9;   /* 粉紫调 */
+    -fx-text-fill: white;
+}
+
+#historyButton:hover {
+    -fx-background-color: #ff99cc;
+}
+
+/* 结果标签特殊样式 */
+#resultLabel {  /* 如果你给 resultLabel 设置了 ID 的话，可以单独定义 */
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #d45d79;
+    -fx-background-color: #ffe6f0;
+    -fx-background-radius: 10;
+    -fx-padding: 10;
+}
